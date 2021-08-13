@@ -11,7 +11,7 @@
 header {
   position: sticky;
   top: 0;
-  background-color: var(--bg-principal);
+  background-color: red;
   height: 60px;
   display: flex;
   flex-direction: row-reverse;
