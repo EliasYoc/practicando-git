@@ -1,152 +1,149 @@
-:root{
-    --bg-principal: #6a006a;
+:root {
+  --bg-principal: #751975;
 }
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
-header{
-    position: sticky;
-    top: 0;
-    background-color: var(--bg-principal);
-    height: 60px;
-    display: flex;
-    flex-direction: row-reverse;
+header {
+  position: sticky;
+  top: 0;
+  background-color: var(--bg-principal);
+  height: 60px;
+  display: flex;
+  flex-direction: row-reverse;
 }
-nav{
-    position: relative;
-    z-index: 1000;
-    height: 100%;
-    width: 300px;
+nav {
+  position: relative;
+  z-index: 1000;
+  height: 100%;
+  width: 300px;
 }
-ul{
-    height: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    list-style: none;
-
+ul {
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
 }
-nav ul li{
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+nav ul li {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-nav ul li a{
-    border-radius: 6px;
-    padding: 0 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 90%;
-    text-decoration: none;
-    color: #fff;
-    transition: background 300ms ease;
-
+nav ul li a {
+  border-radius: 6px;
+  padding: 0 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  text-decoration: none;
+  color: #fff;
+  transition: background 300ms ease;
 }
-nav ul li a:hover{
-    background-color: #fff;
-    color: var(--bg-principal);
+nav ul li a:hover {
+  background-color: #fff;
+  color: var(--bg-principal);
 }
 /*  */
-body{
-    background-color: #e2e2e2;
+body {
+  background-color: #e2e2e2;
 }
-main{
-    display: flex;
-    justify-content: space-between;
+main {
+  display: flex;
+  justify-content: space-between;
 }
-aside{
-    position: sticky;
-    top: 60px;
-    height: calc(100vh - 60px);
-    width: 250px;
-    overflow: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+aside {
+  position: sticky;
+  top: 60px;
+  height: calc(100vh - 60px);
+  width: 250px;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-aside::-webkit-scrollbar{
-    width: 6px;
+aside::-webkit-scrollbar {
+  width: 6px;
 }
-aside::-webkit-scrollbar-thumb{
-    background-color: gray;
-    border-radius: 5px;
-    display: none;
+aside::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 5px;
+  display: none;
 }
-aside:hover::-webkit-scrollbar-thumb{
-    display: block;
+aside:hover::-webkit-scrollbar-thumb {
+  display: block;
 }
-aside::-webkit-scrollbar-track{
-    background-color: #fff;
-    border-radius: 5px;
-    display: none;
+aside::-webkit-scrollbar-track {
+  background-color: #fff;
+  border-radius: 5px;
+  display: none;
 }
-aside:hover::-webkit-scrollbar-track{
-    display: block;
-}
-
-aside .card{
-    background-color: #fff;
-    width: 90%;
-    margin-top: 10px;
-    border-radius: 6px;
-    padding: 5px;
-}
-aside .card:hover h4{
-    font-size: 25px;
-}
-aside .card h4{
-    background-color:  #c4a4f0;
-    border-radius: 6px;
-    padding: 5px 5px;
-    transition: font-size 300ms ease;
-}
-aside .card p{
-    margin: 5px 5px;
-}
-aside.left{
-    /* background-color: red; */
-    
-}
-section{
-    /* background-color: green; */
-    max-width: 500px;
-    margin: 0 5px;
-}
-section p{
-    border-radius: 6px;
-    margin-top: 10px;
-    padding: 8px;
-    background-color: #c4a4f0;
-}
-aside.right .card{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    cursor: pointer;
-}
-aside.right .imagen{
-    background-color: #c4a4f0;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
+aside:hover::-webkit-scrollbar-track {
+  display: block;
 }
 
-@media only screen and (max-width: 1040px){
-    aside.left{
-        display: none;
-    }
-    section{
-        margin: 0 auto;
-    }
+aside .card {
+  background-color: #fff;
+  width: 90%;
+  margin-top: 10px;
+  border-radius: 6px;
+  padding: 5px;
 }
-@media only screen and (max-width:780px){
-    aside.right{
-        display: none;
-    }
+aside .card:hover h4 {
+  font-size: 25px;
+}
+aside .card h4 {
+  background-color: #c4a4f0;
+  border-radius: 6px;
+  padding: 5px 5px;
+  transition: font-size 300ms ease;
+}
+aside .card p {
+  margin: 5px 5px;
+}
+aside.left {
+  /* background-color: red; */
+}
+section {
+  /* background-color: green; */
+  max-width: 500px;
+  margin: 0 5px;
+}
+section p {
+  border-radius: 6px;
+  margin-top: 10px;
+  padding: 8px;
+  background-color: #c4a4f0;
+}
+aside.right .card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+}
+aside.right .imagen {
+  background-color: #c4a4f0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 1040px) {
+  aside.left {
+    display: none;
+  }
+  section {
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 780px) {
+  aside.right {
+    display: none;
+  }
 }
