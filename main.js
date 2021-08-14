@@ -17,3 +17,5 @@ console.log("ultimo");
 console.warn("nada");
 
 console.log("editado desde github");
+
+console.log("stash rama2");
