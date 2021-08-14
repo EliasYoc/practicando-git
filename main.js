@@ -14,7 +14,4 @@ const saludo2 = () => {
 console.log(saludo2());
 console.log("ultimo");
 
-console.warn("nueva rama");
-
-
-alert("hi")
+console.warn("nada");
