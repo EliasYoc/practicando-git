@@ -18,4 +18,4 @@ console.warn("nada");
 
 console.log("editado desde github");
 
-console.log("stash rama2");
+console.log("stash");
