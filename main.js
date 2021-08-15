@@ -18,9 +18,4 @@ console.warn("nada");
 
 console.log("editado desde github");
 
-console.log("stash hola");
-
-const a = () => {
-  console.log("sta");
-};
-const stash = "stash";
+console.log("1");
