@@ -23,3 +23,4 @@ console.log("stash hola");
 const a = () => {
   console.log("sta");
 };
+const stash = "stash";

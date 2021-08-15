@@ -11,7 +11,7 @@
 header {
   position: sticky;
   top: 0;
-  background-color: greenyellow;
+  background-color: rgb(179, 47, 255);
   height: 50px;
   display: flex;
   flex-direction: row-reverse;
