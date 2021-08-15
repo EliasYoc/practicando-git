@@ -18,4 +18,4 @@ console.warn("nada");
 
 console.log("editado desde github");
 
-console.log("stash");
+console.log("stash hola");
