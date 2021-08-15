@@ -20,10 +20,6 @@ console.log("editado desde github");
 
 console.log("stash hola");
 
-<<<<<<< Updated upstream
 const a = () => {
   console.log("sta");
 };
-=======
-const stash = "stash";
->>>>>>> Stashed changes
