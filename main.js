@@ -19,3 +19,7 @@ console.warn("nada");
 console.log("editado desde github");
 
 console.log("stash hola");
+
+const a = () => {
+  console.log("sta");
+};
